@@ -1,0 +1,18 @@
+* {
+    all: unset;
+}
+
+window {
+    background: transparent;
+}
+
+label {
+    color: #cdd6f4;
+    transition: color 500ms ease-in-out, color 500ms ease-in-out;
+}
+
+label:hover {
+    color: #b4befe;
+
+    transition: color 500ms ease-in-out, color 500ms ease-in-out;
+}
