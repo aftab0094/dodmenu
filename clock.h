@@ -27,5 +27,6 @@ static void clock_init(GtkWidget *parent) {
 
 // the clock widget. just do GtkWidget clock = ClockWidget(); and then clock_init(clock) to add the clock to your bar
 static inline GtkWidget *ClockWidget() {
-    return gtk_box_new(GTK_ORIENTATION_HORIZONTAL, 0);
+    GtkWidget *box = gtk_box_new(GTK_ORIENTATION_HORIZONTAL, 0);
+    return box;
 }
