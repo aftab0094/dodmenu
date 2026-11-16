@@ -1,11 +1,14 @@
 #include <gtk/gtk.h>
 #include <gtk4-layer-shell.h>
 #include <stdio.h>
+#include <stdlib.h>
 #include "clock.h"
-#include "sway_api.h"
+#include "gsk/gsk.h"
+// #include "sway_api.h"
 
 
 int main(int argc, char *argv[]) {
+    setenv("GSK_RENDERER", "cairo", 1);
     gtk_init();
 
     // var
